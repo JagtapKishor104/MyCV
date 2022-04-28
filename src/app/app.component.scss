@@ -1,0 +1,27 @@
+@media screen and (max-width:1024px) {
+    .header-img>img
+    {
+        width: 90px;
+        height: 90px;
+    }
+    .header>h4
+    {
+        font-size: 23px;
+    }
+    .header>h5
+    {
+        font-size: 18px;
+    }
+}
+.header-img>img
+{
+    border-radius: 50px;
+}
+.col-md-4>.card
+{
+    border-radius: 20px;
+}
+.about
+{
+    border-radius: 20px ;
+}
