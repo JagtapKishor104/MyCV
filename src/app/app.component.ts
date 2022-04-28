@@ -9,13 +9,12 @@ declare var $: any;
 export class AppComponent implements OnInit {
   // message1: any;
   // message2: any;
- NUM=0;
+  NUM = 0;
   // constructor() {
   //   this.message1 = "Start";
   //   this.message2="Stop"
   // }
   ngOnInit(): void {
-
     // var name: any = document.getElementById('getname');
     // name.onclick = function () {
     //   alert('You are Owsome');
@@ -58,131 +57,130 @@ export class AppComponent implements OnInit {
     // btn1.addEventListener('click', start)
 
     var owl = $('.owl-carousel');
-owl.owlCarousel({
-    items:5,
-    lazyLoad:true,
-    loop:true,
-    margin:10,
-    autoplay:true,
-    autoplayTimeout:3000,
-    autoplayHoverPause:true,
-    responsiveClass:true,
-    responsive:{
-      0:{
-          items:0,
-         
-      },
-      200:{
-          items:2,
-          
-      },
-      400:{
-          items:5,
-      }
-  }
-});
+    owl.owlCarousel({
+      items: 5,
+      lazyLoad: true,
+      loop: true,
+      margin: 10,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      autoplayHoverPause: true,
+      responsiveClass: true,
+      responsive: {
+        0: {
+          items: 0,
 
+        },
+        200: {
+          items: 2,
+
+        },
+        400: {
+          items: 5,
+        }
+      }
+    });
 
   }
   title = 'Practise';
-  images=[{
-    
-    img:"assets/download (1).jpg"
-   },
-   {
-    img:"assets/download (2).jpg"
-   },
-   {
-    img:"assets/download (3).jpg"
-   },
-   {
-    img:"assets/download (4).jpg"
-   },
-   {
-    img:"assets/download (5).jpg"
-   },
-   {
-    img:"assets/download (1).jpg"
+  images = [{
 
-   },
-   {
-    img:"assets/download (2).jpg"
+    img: "assets/download (1).jpg"
+  },
+  {
+    img: "assets/download (2).jpg"
+  },
+  {
+    img: "assets/download (3).jpg"
+  },
+  {
+    img: "assets/download (4).jpg"
+  },
+  {
+    img: "assets/download (5).jpg"
+  },
+  {
+    img: "assets/download (1).jpg"
 
-   }
+  },
+  {
+    img: "assets/download (2).jpg"
+
+  }
   ]
 
-  education=[{
-    type:"Graduation",
-      college_name:" Shri Chhatrapati Shivaji Mahvidyalaya,Shrigonda",
-      marks:"71%"
+  education = [{
+    type: "Graduation",
+    college_name: " Shri Chhatrapati Shivaji Mahvidyalaya,Shrigonda",
+    marks: "71%"
   },
   {
-    type:"H.S.C",
+    type: "H.S.C",
 
-    college_name:" Maharaja Jivajirao Shinde Mahvidyalaya,Shrigonda",
-    marks:"65%"
+    college_name: " Maharaja Jivajirao Shinde Mahvidyalaya,Shrigonda",
+    marks: "65%"
   },
   {
-    type:"S.S.C",
+    type: "S.S.C",
 
-    college_name:"Nutan Marathi Madhyamic Vidyalaya,Shedgaon",
-    marks:"80%"
+    college_name: "Nutan Marathi Madhyamic Vidyalaya,Shedgaon",
+    marks: "80%"
   },
 
-];
-progress=[{
-  value:"90",
-  language:"HTML-5",
-  color:"#ffce30"
-},
-{
-  value:"80",
-  language:"CSS-3",
-  color:"e83845"
+  ];
+  progress = [{
+    value: "90",
+    language: "HTML-5",
+    color: "#ffce30"
+  },
+  {
+    value: "80",
+    language: "CSS-3",
+    color: "e83845"
 
-},
-{
-  language:"JavaScript",
-  value:"75",
-  color:"#e38989"
+  },
+  {
+    language: "JavaScript",
+    value: "75",
+    color: "#e38989"
 
-},
-{
-  language:"TypeScript",
-  value:"75",
-  color:"#746a80"
+  },
+  {
+    language: "TypeScript",
+    value: "75",
+    color: "#746a80"
 
-},
-{
-  language:"Angular-12",
-  value:"80",
-  color:"#800080"
+  },
+  {
+    language: "Angular-12",
+    value: "80",
+    color: "#800080"
 
- 
 
-},
-{
-  language:"JQuery",
-  value:"55",
-  color:"#28bba8"
-}];
 
-project=[{
-  title:"Inventory Management Sysyem",
-  Language:"HTML, CSS, JavaScript, Bootstrp, PHP, Mysql",
-  desc:" In Inventory Management system we store all the product details such as name, prize, image, quantity as well as customer details,vendor details, sales details.  "
-},
-{
-  title:"Angular CRUD using Bootstrap UI",
-  Language:"HTML, CSS, JavaScript, Bootstrp, TypeScript, Angular, Node JS",
-  desc:" In Inventory Management system we store all the product details such as name, prize, image, quantity as well as customer details,vendor details, sales details.  "
+  },
+  {
+    language: "JQuery",
+    value: "55",
+    color: "#28bba8"
+  }];
 
-},];
-training=[{
-  trained:"Trained in HTML, CSS, JavaScript, Bootstrap, TypeScript and Angular in Naresh It, Ameerpet, Hyderabad. "
-},
-{
-  trained:"Trainned in Special Angular-12"
-}]
+  project = [{
+    title: "Inventory Management Sysyem",
+    Language: "HTML, CSS, JavaScript, Bootstrp, PHP, Mysql",
+    desc: " In Inventory Management system we store all the product details such as name, prize, image, quantity as well as customer details,vendor details, sales details.  "
+  },
+  {
+    title: "Angular CRUD using Bootstrap UI",
+    Language: "HTML, CSS, JavaScript, Bootstrp, TypeScript, Angular, Node JS",
+    desc: " In Inventory Management system we store all the product details such as name, prize, image, quantity as well as customer details,vendor details, sales details.  "
+
+  },];
+  training = [{
+    trained: "Trained in HTML, CSS, JavaScript, Bootstrap, TypeScript and Angular in Naresh It, Ameerpet, Hyderabad. "
+  },
+  {
+    trained: "Trainned in Special Angular-12"
+  }]
 
 }
