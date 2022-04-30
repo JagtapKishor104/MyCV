@@ -15,6 +15,15 @@
 <button id="btn">{{message1}}</button>
 <button id="stop">{{message2}}</button> -->
 
+<div class="icon-bar">
+  <a href="" class="facebook"><i class="fa fa-facebook"></i></a>
+    <a href="" class="twitter"><i class="fa fa-twitter"></i></a>
+    <a href="" class="google"><i class="fa fa-google"></i></a>
+    <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+    <a href="" class="youtube"><i class="fa fa-youtube"></i></a>
+
+</div>
+
 
 <div class="my-5 pt-5 container ">
   <div class="card position-relative about">
@@ -36,14 +45,15 @@
 
 <!--  -->
 
-<div style="background-color: aquamarine;"  data-aos="fade-up"
+<div style="background-color: #ffffff;"  data-aos="fade-up"
 data-aos-anchor-placement="top-bottom">
-  <div class="container" >
+  <div class="container " >
     <div class="row py-5 justify-content-start">
-      <h5 class="text-center text-light pt-2 pb-4">Educational Qualificational</h5>
-      <div class="col-md-4"  *ngFor="let edu of education">
-        <div class="card my-3" style="border: 3px solid rgb(13, 0, 255);" >
+        <h5 class=" text-center my-5 pt-3 pb-4 box">Educational Qualificational</h5>
+      <div class="col-md-4 "  *ngFor="let edu of education">
+        <div class="card my-3 box " >
           <h5 class="text-center">{{edu.type}}</h5>
+          
             <h6 class="ps-2"><U><B>College Name: 123 </B></U> <span style="color: rgb(0, 136, 255);">{{edu.college_name}}. </span></h6>
             <h6 class="ps-2"><b><u>Marks: </u></b> <span style="color: rgb(0, 136, 255);">{{edu.marks}};</span></h6>
         </div>
@@ -55,8 +65,8 @@ data-aos-anchor-placement="top-bottom">
   </div>
 </div>
 <!--  -->
-<div class="container" data-aos="fade-up">
-  <h5 class="text-center my-5">Training</h5>
+<div class="container " data-aos="fade-up">
+  <h5 class="text-center my-5 ">Training</h5>
   <div class="row">
     <div class="col-md-6 align-self-center"  *ngFor="let train of training">
       <div class="card ">
@@ -151,7 +161,7 @@ data-aos-anchor-placement="top-bottom">
 <!--  -->
 
 
-<div class="owl-carousel container">
+<div class="owl-carousel container" style="z-index: 0;">
   <div class="card" style="width: 18rem;">
     <img class="card-img-top" src="../assets/download (1).jpg" alt="" height="150" width="200">
     <div class="card-body">
@@ -201,3 +211,6 @@ data-aos-anchor-placement="top-bottom">
     </div>
   </div>
 </div>
+
+
+
