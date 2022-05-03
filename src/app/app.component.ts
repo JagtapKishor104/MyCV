@@ -129,7 +129,7 @@ export class AppComponent implements OnInit {
 
   ];
   progress = [{
-    value: "90",
+    value: "95",
     language: "HTML-5",
     color: "#ffce30"
   },
@@ -140,14 +140,19 @@ export class AppComponent implements OnInit {
 
   },
   {
+    language:"Bootstrap",
+    value:"95",
+    color:"#000000"
+  },
+  {
     language: "JavaScript",
-    value: "75",
+    value: "60",
     color: "#e38989"
 
   },
   {
     language: "TypeScript",
-    value: "75",
+    value: "60",
     color: "#746a80"
 
   },
@@ -158,23 +163,26 @@ export class AppComponent implements OnInit {
 
 
 
-  },
-  {
-    language: "JQuery",
-    value: "55",
-    color: "#28bba8"
-  }];
+  },];
 
-  project = [{
-    title: "Inventory Management Sysyem",
-    Language: "HTML, CSS, JavaScript, Bootstrp, PHP, Mysql",
-    desc: " In Inventory Management system we store all the product details such as name, prize, image, quantity as well as customer details,vendor details, sales details.  "
-  },
+  project = [
   {
     title: "Angular CRUD using Bootstrap UI",
     Language: "HTML, CSS, JavaScript, Bootstrp, TypeScript, Angular, Node JS",
-    desc: " In Inventory Management system we store all the product details such as name, prize, image, quantity as well as customer details,vendor details, sales details.  "
-
+    desc: "In this project we create a CRUD operations like Get, Post, Put, Delete With MongoDB as A Databas",
+show:true
+  },
+  {
+    title: "Angular CRUD using Material UI",
+    Language: "HTML, CSS, JavaScript, Bootstrp, TypeScript, Angular, Node JS",
+    desc: "In this project we create a filtering and sorting the employee details with CRUD operations like Get, Post, Put, Delete With MongoDB as A Database",
+show:true
+  },
+  {
+    title: "Inventory Management Sysyem",
+    Language: "HTML, CSS, JavaScript, Bootstrp, PHP, Mysql",
+    desc: " In Inventory Management system we store all the product details such as name, prize, image, quantity as well as customer details,vendor details, sales details.  ",
+    show:false,
   },];
   training = [{
     trained: "Trained in HTML, CSS, JavaScript, Bootstrap, TypeScript and Angular in Naresh It, Ameerpet, Hyderabad. "
